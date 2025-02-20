@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlAnT hOuSe | PLANT NURSERY</title>
+    <link rel="stylesheet" href="PlantNursery.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <h1>PlAnT hOuSe</h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="#" class="menu">Home</a></li>
+            <li><a href="#" class="menu">About us</a></li>
+            <li><a href="#" class="menu">Products</a></li>
+            <li><a href="#" class="contact">Contact</a></li>
+        </ul>
+        <div class="menu-icon" id="menu-icon">
+            <i class="bx bx-menu" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <header>
+        <div class="content" id="content">
+            <h2>revitalize your home with greenery</h2>
+            <p class="content_text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit minima dolorum voluptates ducimus suscipit est obcaecati quae, perferendis voluptatum harum eum et exercitationem corrupti hic?
+            </p>
+            <button class="explore"><a href="#">Explore more</a></button>
+            <button class="play"><a href="#"><i class="bx bx-play"></i></a></button>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <h2>About us</h2><hr class="line"><br><br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ad reprehenderit quod, nesciunt quisquam, quo reiciendis optio ab corporis
+             quaerat iure enim suscipit maxime ratione! Iure, eum? Sit at 
+             repellendus animi modi doloribus assumenda, sed temporibus libero 
+             cupiditate perspiciatis fugit quia officiis ducimus? Molestias 
+             possimus odio quasi. Harum, unde voluptatum! <br>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugit nihil in doloribus error, iure recusandae et neque deserunt soluta saepe asperiores praesentium, sunt, reprehenderit aliquam exercitationem eveniet cum? Consequuntur maiores iste temporibus, ipsum odit distinctio itaque excepturi minima voluptatem, perspiciatis numquam architecto nulla nobis, maxime veniam doloribus blanditiis impedit.
+        </p>
+             <div class="row">
+                <div class="col">
+                    <h3>500+</h3>
+                    <h5>HAPPY CUSTOMERS</h5>
+                </div>
+                <div class="col">
+                    <h3>2500+</h3>
+                    <h5>VARITIES OF PLANTS</h5>
+                </div>
+                <div class="col">
+                    <h3>15K+</h3>
+                    <h5>ONLINE DELIVERIES</h5>
+                </div>
+                <div class="col">
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Odio eveniet earum tempora, accusamus, fuga saepe, exercitationem 
+                        provident possimus et odit placeat vitae nostrum deserunt dolor!</P>
+                </div>
+             </div>
+             <div class="img-row">
+                <div class="img-col"><img src="images/ip1.jpg" alt="ip1">
+                    <h5>Hanging plants</h5>
+                </div>
+                <div class="img-col"><img src="images/ip2.jpg" alt="ip2">
+                    <h5>Garden plants</h5>
+                </div>
+                <div class="img-col"><img src="images/ip3.jpg" alt="ip3">
+                    <h5>Indoor plants</h5>
+                </div>
+             </div>
+    </section>
+    <section class="products" id="products">
+        <h2>Products</h2><hr class="line"><br><br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ad reprehenderit quod, nesciunt quisquam, quo reiciendis optio ab corporis
+             quaerat iure enim suscipit maxime ratione! Iure, eum? Sit at 
+             repellendus animi modi doloribus assumenda, sed temporibus libero 
+             cupiditate perspiciatis fugit quia officiis ducimus? Molestias 
+             possimus odio quasi. Harum, unde voluptatum! 
+        </p>
+        <div class="products-col">
+            <div class="img-products">
+                <img src="images/caladium-plant.jpg" alt="caladium-plant">
+                <h3 class="name">Caladium plant</h3>
+                <h5 class="price"><i class="bx bx-rupee"></i>200/pieace</h5>
+                <span  onclick="openPopup()" id="cart"><i class="bx bxs-cart"></i></span>
+            </div>
+            <div class="img-products">
+                <img src="images/broken heart plant philodendron.png" alt="">
+                <h3 class="name">Philodendron (Broken heart)</h3>
+                <h5 class="price"><i class="bx bx-rupee"></i>280/pieace</h5>
+                <span  onclick="openPopup()" id="cart"><i class="bx bxs-cart"></i></span>
+            </div>
+            <div class="img-products">
+                <img src="images/croton petra.jpg" alt="">
+                <h3 class="name">Croton petra</h3>
+                <h5 class="price"><i class="bx bx-rupee"></i>190/pieace</h5>
+                <span  onclick="openPopup()" id="cart"><i class="bx bxs-cart"></i></span>
+            </div>
+            <div class="img-products">
+                <img src="images/dumb cane.jpg" alt="">
+                <h3 class="name">Dumb cane</h3>
+                <h5 class="price"><i class="bx bx-rupee"></i>230/pieace</h5>
+                <span onclick="openPopup()" id="cart"><i class="bx bxs-cart"></i></span>
+            </div>
+            <div class="img-products">
+                <img src="images/hanging pathos.jpg" alt="">
+                <h3 class="name">Hanging pathos</h3>
+                <h5 class="price"><i class="bx bx-rupee"></i>300/pieace</h5>
+                <span onclick="openPopup()" id="cart"><i class="bx bxs-cart"></i></span>
+            </div>
+            <div class="img-products">
+                <img src="images/Snake-Plant-MyFlowerTree.jpg" alt="">
+                <h3 class="name">Snake plant</h3>
+                <h5 class="price"><i class="bx bx-rupee"></i>310/pieace</h5>
+                <span  onclick="openPopup()" id="cart"><i class="bx bxs-cart"></i></span>
+            </div>
+            <div class="popup" id="popup">
+                <i class="bx bx-check"></i>
+                <h2>Thank You!</h2>
+                <p>Product has been added successfully to your cart. Have a wonderful shopping time!</p>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="contact">Contact us</h2><hr class="line"><br><br>
+    <footer>
+        <div class="content1">
+            <div class="left box">
+                <div class="lower">
+                    <div class="topic">Contact us</div>
+                    <div class="phone">
+                        <a href="#"><i class="bx bxs-phone"></i>+91 10 20 30 40 50</a>
+                    </div>
+                    <div class="phone">
+                        <a href="#"><i class="bx bxs-envelope"></i>abc@mydomain.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="middle box">
+                <div class="topic">Our Products</div>
+                <div><a href="#">Hanging Plants</a></div>
+                <div><a href="#">Garden Plants</a></div>
+                <div><a href="#">Indoor Plants</a></div>
+            </div>
+            <div class="right box">
+                <div class="topic">Drop a Message</div>
+                <form>
+                    <input type="text" placeholder="Enter email address">
+                    <input type="text" placeholder="Enter your message">
+                    <input type="submit" name="" value="Send">
+                    <div class="media-icons">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-youtube"></i></a>
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Copyright &copy 2020 <a href="#navbar"> PlAnT hOuSe</a> All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="PlantNursery.js"></script>
+</body>
+</html>
