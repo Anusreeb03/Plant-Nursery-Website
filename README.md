@@ -1,4 +1,4 @@
-![nursery 3](https://github.com/user-attachments/assets/3c9aa62d-b006-45d5-87f8-167b2be43545)# Plant Nursery Website
+# Plant Nursery Website
 
 Welcome to the Plant Nursery website repository! This project is a simple website designed to showcase different plants for sale, where users can shop the plants by clicking on the cart tag and also a popup is displayed showing the message that the product is added to cart. It was built using HTML, CSS, and JavaScript.
 
@@ -40,5 +40,5 @@ Here are some screenshots of the website:
 ## Link to Live Website
 
 The live website is available at:  
-[https://www.plantnurserywebsite.com](https://anusreeb03.github.io/Plant-Nursery-Website/)
+[(https://anusreeb03.github.io/Plant-Nursery-Website/)](https://anusreeb03.github.io/Plant-Nursery-Website/)
 
