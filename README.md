@@ -1,18 +1,11 @@
-# Plant Nursery Website
+![nursery 3](https://github.com/user-attachments/assets/3c9aa62d-b006-45d5-87f8-167b2be43545)# Plant Nursery Website
 
-Welcome to the Plant Nursery website repository! This project is a simple website designed to showcase different plants for sale, provide plant care instructions, and allow users to easily browse plant categories. It was built using HTML, CSS, and JavaScript.
+Welcome to the Plant Nursery website repository! This project is a simple website designed to showcase different plants for sale, where users can shop the plants by clicking on the cart tag and also a popup is displayed showing the message that the product is added to cart. It was built using HTML, CSS, and JavaScript.
 
 ## Demo
 
 You can view the live version of this website here:  
-[https://www.plantnurserywebsite.com](https://www.plantnurserywebsite.com)
-
-## Features
-
-- **Responsive Design**: The website is designed to be mobile-friendly and adapts to all screen sizes.
-- **Plant Categories**: Users can view plants categorized into sections like indoor, outdoor, flowering, and more.
-- **Interactive Search**: Allows users to search for specific plants.
-- **Product Detail Pages**: Each plant has a dedicated page showcasing care instructions, price, and availability.
+[https://anusreeb03.github.io/Plant-Nursery-Website/](https://anusreeb03.github.io/Plant-Nursery-Website/)
 
 ## Technologies Used
 
@@ -24,56 +17,28 @@ You can view the live version of this website here:
 
 Here are some screenshots of the website:
 
-![Homepage](![nursery 1](https://github.com/user-attachments/assets/fd9da9a1-b6cd-472b-80f8-97fcdc4f083c)
-)  
-*The homepage featuring a plant nursery overview .*
-![Aboutpage](![Uploading nursery 1.PNG…]()
-)  
+![Home page](![nursery 1](https://github.com/user-attachments/assets/fd9da9a1-b6cd-472b-80f8-97fcdc4f083c))  
 *The homepage featuring a plant nursery overview .*
 
-![Plant Detail Page](./screenshots/plant-detail.png)  
-*A detailed view of a specific plant with care instructions and price.*
+![About page](![nursery 2](https://github.com/user-attachments/assets/1414fde2-b7a0-45a9-8ed8-4fd4440b3093))  
+*The aboutpage featuring a plant nursery overview .
 
-![Contact Page](![nursery 5](https://github.com/user-attachments/assets/dd71d515-93b1-4a74-af9f-8c85c06a109c)
-)  
-*The contact page wh![Uploading nursery 5.PNG…]()
-ere users can inquire about the plants or make requests.*
+![Product Page](![nursery 3](https://github.com/user-attachments/assets/fc6f8e02-9230-4d8b-918e-68a024a2a3e0)
+))  
+*The product page featuring the images and price of plants
 
-## Installation
+![Product Page](![nursery 4](https://github.com/user-attachments/assets/629fc89f-ea8f-4dcf-a58f-42fcf9c8e897)
+*The product page featuring the images and price of plants
 
-To run this website locally on your machine, follow these steps:
+![Product Page](![nursey 6](https://github.com/user-attachments/assets/72b8b439-2cee-4cb3-ba7e-328c10c84828)
+*The product page featuring the images and price of plants an add to cart button is provided which when clicked displays a message that the product is added to cart.
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/plant-nursery-website.git
-    ```
 
-2. **Navigate into the project directory**:
-    ```bash
-    cd plant-nursery-website
-    ```
-
-3. **Open the `index.html` file in your browser**:
-    - You can simply double-click the `index.html` file to open it in your default web browser.
+![Contact Page](![nursery 5](https://github.com/user-attachments/assets/dd71d515-93b1-4a74-af9f-8c85c06a109c))  
+*The contact page where users can inquire about the plants or make requests.*
 
 ## Link to Live Website
 
 The live website is available at:  
 [https://www.plantnurserywebsite.com](https://anusreeb03.github.io/Plant-Nursery-Website/)
-
-## Contributing
-
-1. Fork the repository.
-2. Create your branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to make any modifications based on your specific needs or content.
 
